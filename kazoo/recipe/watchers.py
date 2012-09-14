@@ -67,6 +67,8 @@ class DataWatch(object):
         self._allow_session_lost = allow_session_lost
         self._run_lock = client.handler.lock_object()
         self._prior_data = ()
+        
+        # Test comment
 
         # Register our session listener if we're going to resume
         # across session losses
